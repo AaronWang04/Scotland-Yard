@@ -6,8 +6,6 @@
  * Areas of Concern:
  *      - AI itself does not utilize black/double tickets to its advantage
  *      - MisterX AI 
- * Author(s): 
- *      Aaron
  */
 
 package controller;

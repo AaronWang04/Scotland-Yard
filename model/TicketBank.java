@@ -1,13 +1,3 @@
-/**
- * Class:
- *      TicketBank
- * Description:
- *      This class represents the entire ticket bank that numbers the ticket amounts both sides need throughout the game 
- * Areas of Concern
- *      None
- * Author(s):
- *      Aaron
- */
 
 package model;
 

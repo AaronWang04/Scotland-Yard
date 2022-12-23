@@ -1,14 +1,3 @@
-/**
- * Class:
- *      Node
- * Description:
- *      This class represents a node (station) on the map of the gameBoard
- * Areas of Concern
- *      None
- * Author(s):
- *      Aaron
- */
-
 package model;
 
 import java.util.*;

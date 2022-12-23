@@ -3,10 +3,6 @@
  * 		PlayingPiece
  * Description:
  * 		Represents a clickable playing piece of one of the players on gameboard
- * Areas of Concern:
- * 		None
- * Author(s):
- * 		Max, Ray
  */
 
 package view;

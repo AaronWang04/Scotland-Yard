@@ -2,11 +2,6 @@
  * Class: MenuScreen
  * 
  * Description: This class creates the menu panel where user chooses which gamemode to play 
- * 
- * Areas of Concern: None
- * 
- * Author(s): Aaron
- * 
  */
 
 package view;

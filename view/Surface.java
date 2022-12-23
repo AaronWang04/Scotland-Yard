@@ -3,10 +3,6 @@
  * 		Surface
  * Description:
  * 		This class represents the window that is displaying one screen at a time, able to switch between them
- * Areas of Concern
- * 		None
- * Author(s):
- * 		Ray
  */
 
 package view;

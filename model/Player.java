@@ -1,14 +1,3 @@
-/**
- * Class:
- *      Player
- * Description:
- *      This class represents a generic player (Detective or Mr X) in the game
- * Areas of Concern
- *      None
- * Author(s):
- *      Aaron, Ray
- */
-
 package model;
 
 import view.*;

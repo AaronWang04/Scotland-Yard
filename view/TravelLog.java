@@ -2,11 +2,6 @@
  * Class: TravelLog
  * 
  * Description: Class that displays MrX's travel history and acts as a data structure for it
- * 
- * Areas of Concern: None
- * 
- * Author(s): Aaron, Ray
- * 
  */
 
 package view;

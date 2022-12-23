@@ -3,10 +3,6 @@
  * 		HelpScreen
  * Description:
  * 		This class brings the user to a website explaining rules of Scotland Yard
- * Areas of Concern
- * 		None
- * Author(s):
- * 		Max
  */
 
 package view;

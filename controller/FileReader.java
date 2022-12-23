@@ -2,11 +2,6 @@
  * Class: FIleRead
  * 
  * Description: Read the given txt files and return a data structure storing the data
- * 
- * Areas of Concern: None
- * 
- * Author(s): Aaron
- * 
  */
 
 package controller;

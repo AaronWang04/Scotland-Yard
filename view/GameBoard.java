@@ -4,10 +4,6 @@
  * Description:
  * 		This class represents the JPanel that holds the board where actual gameplay occurs, including elements 
  * 		such as the map, the playing pieces, and the travel log
- * Areas of Concern:
- * 		None
- * Author(s):
- * 		Ray
  */
 
 package view;

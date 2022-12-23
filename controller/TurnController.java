@@ -2,12 +2,7 @@
  * Class:
  *      TurnController
  * Description:
- *      This class manages the actions that occur during a turn or round change, including actual movement of 
- *      the game pieces
- * Areas of Concern:
- *      None
- * Author(s):
- *      Aaron, Ray
+ *      This class manages the actions that occur during a turn or round change, including actual movement of the game pieces
  */
 
 package controller;

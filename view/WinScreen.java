@@ -3,10 +3,6 @@
  *      HideScreen
  * Description:
  *      This class hides the gameBoard screen while the turn is being switched for player-vs-player
- * Areas of Concern
- *      None
- * Author(s):
- *      Max, Ray
  */
 
 package view;

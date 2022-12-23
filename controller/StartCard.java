@@ -2,11 +2,6 @@
  * Class: StartCard
  * 
  * Description: Contains start card for detectives and MrX
- * 
- * Areas of Concern: None
- * 
- * Author(s): Aaron
- * 
  */
 
 package controller;

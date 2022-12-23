@@ -3,10 +3,6 @@
  * 
  * Description: A class that displays numbers of tickets left to users
  * 
- * Areas of Concern: None
- * 
- * Author(s): Aaron, Ray
- * 
  */
 
 package view;

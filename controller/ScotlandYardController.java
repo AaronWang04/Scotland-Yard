@@ -4,10 +4,6 @@
  * Description:
  * 		This class brings the surface with all the screens and GUI components together with the TurnController 
  * 		that controls turns and player movement
- * Areas of Concern
- * 		None
- * Author(s):
- * 		Ray
  */
 
 package controller;
