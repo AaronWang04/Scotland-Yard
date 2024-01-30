@@ -19,7 +19,6 @@
  * 		- GUI
  */
 
-package application;
 
 import controller.*;
 

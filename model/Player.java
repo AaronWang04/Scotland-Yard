@@ -33,8 +33,6 @@ public class Player {
 
     }
 
-    // 
-    // Author: Ray
     public ArrayList<Integer> getPossibleDestinations() {
 
         ArrayList<Integer> nodeArrayList = new ArrayList<Integer>();
@@ -129,7 +127,6 @@ public class Player {
 
     }
     
-    // Author: Ray
     public ArrayList<PlayingPiece> displayPossibleDestinations() {
 
         ArrayList<PlayingPiece> destinationArrayList = new ArrayList<PlayingPiece>();

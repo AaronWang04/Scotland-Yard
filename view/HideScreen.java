@@ -21,7 +21,6 @@ public class HideScreen extends JPanel {
     private JButton readyButton = new JButton();
 
     // constructor
-    // Author: Max
     public HideScreen() {
 
         // setup jpanel
@@ -49,7 +48,6 @@ public class HideScreen extends JPanel {
     }
 
     // getters and setters
-    // Author: Ray
 
     public JButton getReadyButton() {
         return readyButton;

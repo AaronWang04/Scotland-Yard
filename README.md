@@ -12,3 +12,6 @@ This application recreates the strategy board game "Scotland Yard" by Ravensburg
  - Graph Theory
  - Greedy Algorithms
  - GUI
+
+## To run
+javac ScotlandYardApplication.java && java ScotlandYardApplication

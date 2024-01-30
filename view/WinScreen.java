@@ -35,17 +35,14 @@ public class WinScreen extends JPanel {
         super();
 
         // set size of jpanel
-        // Author: Max
         setSize(1920, 1080);
         setLayout(null);
         
         // set up map image without adding it yet
-        // Author: Max
         mapLabel.setIcon(gameMap);
         mapLabel.setBounds((this.getWidth() - gameMap.getIconWidth()) / 2, (this.getHeight() - gameMap.getIconHeight()) / 2, gameMap.getIconWidth(), gameMap.getIconHeight());
 
         // add all the last position of the players during the game end, replacing Mr X with a crosshair in case detective and Mr X overlap
-        // Author: Ray
         for (Player player : TurnController.playerArray) {
 
             int[] mapImageCoords = ScotlandYardController.nodeMap[player.getCurrentNode()].getMapCords();
@@ -62,7 +59,6 @@ public class WinScreen extends JPanel {
         }
 
         // add the winner text label
-        // Author: Max
         winnerLabel.setForeground(Color.WHITE);
         winnerLabel.setText(winner + " HAS WON THE GAME");
         winnerLabel.setFont(new Font("Bahnschrift", Font.PLAIN,45));
@@ -74,7 +70,6 @@ public class WinScreen extends JPanel {
         add(mapLabel);
 
         // add in the win background label
-        // Author: Max
         winBgLabel.setBounds(0, 0, 1920, 1080);
         winBgLabel.setIcon(new ImageIcon( winBg.getImage().getScaledInstance(1920, 1080, java.awt.Image.SCALE_SMOOTH)));
         add(winBgLabel);

@@ -45,7 +45,6 @@ public class TicketBoard extends JPanel {
 	private String displayMode;
 
 	// Detective constructor (three numbers)
-	// Author: Ray
 	public TicketBoard(int numTaxi, int numBus, int numTrain) {
 		super();
 
@@ -89,7 +88,6 @@ public class TicketBoard extends JPanel {
 	}
 
 	// Mr X constructor (two numbers)
-	// Author: Ray
 	public TicketBoard(int numBlack, int numDouble) {
 		super();
 
@@ -193,7 +191,6 @@ public class TicketBoard extends JPanel {
 	}
 
 	// Update the JPanel
-	// Author: Aaron
 	public void update() {
 
 		if (displayMode.equals("Detective")) {
@@ -213,7 +210,6 @@ public class TicketBoard extends JPanel {
 	}
 
 	// selects black ticket by adding blue border around it
-	// Author: Aaron
 	public void selectBlack() {
 
 		blackButton.setBorder(selectedBorder);
@@ -221,7 +217,6 @@ public class TicketBoard extends JPanel {
 	}
 
 	// selects double ticket by adding blue border around it
-	// Author: Aaron
 	public void selectDouble() {
 
 		doubleButton.setBorder(selectedBorder);

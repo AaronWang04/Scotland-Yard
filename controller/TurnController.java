@@ -29,7 +29,6 @@ public class TurnController {
     public static boolean doubleTicketUsedRound = false;
 
     // constructor
-    // Author: Ray
     public TurnController(String givenMode) {
 
         // assign the mode
@@ -49,7 +48,6 @@ public class TurnController {
     //      1: the turn is incomplete
     //      2: detective win
     //      3: x win
-    // Author: Ray
     public int nextTurn() {
 
         // if it is Mr X's turn and he hasn't moved, return incomplete turn state
@@ -93,7 +91,6 @@ public class TurnController {
     //      0: No wins
     //      1: Detective wins
     //      2. MisterX wins
-    // Author: Aaron
     public int checkWin(){
 
         int mrX = playerArray[0].getCurrentNode();
@@ -128,7 +125,6 @@ public class TurnController {
     }
 
     // move a selected player to a new node, expending a ticket of transportationMethod if necessary
-    // Author: Aaron
     public static void move(Player player,int newNodeNum, String transportationMethod, boolean isDoubleTurn) {
 
         // if the player is a detective

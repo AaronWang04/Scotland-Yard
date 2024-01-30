@@ -102,7 +102,6 @@ public class Surface extends JFrame {
 	// utility methods
 
 	// redraws the surface, important for changing screens
-	// Author: Ray 
 	public void update() {
 		
 		// update the currently shown screen
@@ -119,7 +118,6 @@ public class Surface extends JFrame {
 	}
 	
 	// changes the currently displayed screen
-	// Author: Ray
 	public void changeScreens(String screen) {
 
 		// internally save the new screen

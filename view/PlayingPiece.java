@@ -48,13 +48,11 @@ public class PlayingPiece extends JButton {
 		super();
 
 		// assign fields
-		// Author: Max
 		this.nodeNum = nodeNum;
 		this.pieceType = pieceType;
 		this.translucent = translucent;
 
 		// assign color based on the entered color integer, and whether or not to make it "translucent" (used for displaying possible moves)
-		// Author: Ray
 		switch (color) {
 			case 0:
 				if (translucent)
@@ -92,7 +90,6 @@ public class PlayingPiece extends JButton {
 		}
 
 		// make the playing piece have a colored thick border but transparent center
-		// Author: Max
 		setBorder(BorderFactory.createLineBorder(selectedColor, 7));
 		setOpaque(false);
 		setContentAreaFilled(false);
@@ -100,7 +97,6 @@ public class PlayingPiece extends JButton {
 	}
 
 	// getters and setters
-	// Author: Max
 
 	public int getNodeNum() {
 		return nodeNum;
@@ -129,7 +125,6 @@ public class PlayingPiece extends JButton {
 	// utility methods
 
 	// create a Rectangle object that will be used as the bounds when setting the playing piece on gameBoard
-	// Author: Ray
 	public Rectangle generateBounds() {
 
 		return new Rectangle(

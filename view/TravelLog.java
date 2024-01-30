@@ -48,7 +48,6 @@ public class TravelLog extends JPanel{
 	private Border clickableBorder = BorderFactory.createDashedBorder(null, 5, 1, 1, false);
 
 	// constructor
-	// Author: Ray
 	public TravelLog() {
 
 		super();
@@ -95,7 +94,6 @@ public class TravelLog extends JPanel{
 	}
 
 	// constructor that duplicates a travelLog
-	// Author: Ray
 	public TravelLog(TravelLog toBeDuplicated) {
 		super();
 		this.travelTicketsArray = toBeDuplicated.getTravelTicketsArray();
@@ -111,7 +109,6 @@ public class TravelLog extends JPanel{
 	}
 
 	// Log a new entry of MrX's movement
-	// Author: Aaron
 	public void logNewEntry(String travel, int position, boolean isSecondMove, boolean isGUI) {
 
 		if (!isSecondMove) {
@@ -189,7 +186,6 @@ public class TravelLog extends JPanel{
 	}
 
 	// Overloaded method: For when the travelLog is not used as a GUI, but rather a data structure
-	// Author: Aaron
 	public void logNewEntry(String travel, int position, boolean isSecondMove){
 		if (!isSecondMove) {
 			if (lastPlacedEntryIndex == TurnController.round) return;
@@ -216,7 +212,6 @@ public class TravelLog extends JPanel{
 	}
 
 	// Cycles through the visibility of the three stacked tickets
-	// Author: Ray
 	public void cycleDoubleTurnCards(int index) {
 
 		// was the double ticket used on a surface turn
