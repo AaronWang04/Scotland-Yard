@@ -14,4 +14,4 @@ This application recreates the strategy board game "Scotland Yard" by Ravensburg
  - GUI
 
 ## To run
-javac ScotlandYardApplication.java && java ScotlandYardApplication
+```javac ScotlandYardApplication.java && java ScotlandYardApplication```
